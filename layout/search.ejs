@@ -1,5 +1,5 @@
 <%- include("_include/variables.ejs") %>
-<% config.__title = __('Search') + " - " + config.title 
+<% config.__title = __('Search') + " - " + config.title
 %>
 <%- include("_include/head.ejs") %>
 <%- include("_include/container_head.ejs") %>
@@ -11,7 +11,7 @@
     <div class="post-list-container post-list-container-shadow">
         <div class="post-item-wrapper post-item-wrapper-no-hover">
             <div class="post-item post-item-no-gaps">
-                <div class="post-item-info-wrapper">
+                <div class="post-item-info-wrapper" style="border: 1px black solid;">
                     <input autocomplete="off" autocapitalize="off"
                            placeholder="Type something to start searching..." spellcheck="false"
                            type="search" class="post-item-searchbox">
@@ -27,12 +27,12 @@
         </div>
     </div>
     <%- include("_include/pagination.ejs") %>
-    
+
     <%- include("_include/single_column_footer.ejs") %>
 </div>
 
 <script type="text/javascript" src="<%= config.root + 'js/search.js' %>"></script>
-<script> 
+<script>
 // use js to define <input> behaviors
 document.addEventListener('DOMContentLoaded', () => {
     const localSearch = new LocalSearch({
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <ul class="search-result-list">${resultItems.map(result => result.item).join('')}</ul>`;
             if (typeof pjax === 'object') pjax.refresh(container);
         }
-    }      
+    }
     input.addEventListener('input', inputEventFunction);
 })
 </script>

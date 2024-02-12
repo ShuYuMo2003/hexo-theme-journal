@@ -1,7 +1,7 @@
-sidebar_title: "ce-amtic's."
-sidebar_subtitle: "眩しくて、知らなくて、<br>恐ろしくて ..."
+sidebar_title: "Shu Yu Mo's."
+sidebar_subtitle: "YTQ 貓貓 數學 程式碼"
 
-truncate_len: 180
+truncate_len: 50
 
 rss: atom.xml
 
@@ -21,7 +21,7 @@ cdn:
     # The base URL of Google Fonts CDN (e.g. "https://fonts.loli.net" "https://fonts.googleapis.com")
     fonts: https://fonts.loli.net
 
-hljsTheme: 
+hljsTheme:
     light: atom-one-light
     dark: atom-one-dark
 
@@ -34,12 +34,12 @@ giscus:
     app: https://giscus.app/client.js
 
     # The options, see "Enable giscus" section in https://giscus.app/
-    repo: ce-amtic/ce-amtic.github.io # [ENTER REPO HERE]
-    repo-id: MDEwOlJlcG9zaXRvcnkxNjgzNTYwMTE= # [ENTER REPO ID HERE]
+    repo: ShuYuMo2003/ShuYuMo2003.github.io # [ENTER REPO HERE]
+    repo-id: MDEwOlJlcG9zaXRvcnkyOTMyMjg2NDc= # [ENTER REPO ID HERE]
     category: General # [ENTER CATEGORY NAME HERE]
-    category-id: DIC_kwDOCgjoq84CVvut # [ENTER CATEGORY ID HERE]
+    category-id: DIC_kwDOEXpQZ84CdJZB # [ENTER CATEGORY ID HERE]
     mapping: pathname
     reactions-enabled: 1
-    emit-metadata: 0
+    emit-metadata: 1
     theme: light
     lang: en
